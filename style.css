@@ -1,0 +1,11 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media (min-width:600px) {
+    .sign-up{
+        width: %60;
+    }
+}
